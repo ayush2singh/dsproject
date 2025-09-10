@@ -1,3 +1,24 @@
 .artifacts
 "dsenv/" 
 "dsenv/" 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.Python
+
+# Jupyter
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+dsenv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
